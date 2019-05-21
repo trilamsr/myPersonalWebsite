@@ -27,6 +27,7 @@ p {
     opacity: 0.5;
     color: black;
 }
+
 .internalNavigation__skipLink:hover {
     opacity: 1;
     padding-top: 1em;
@@ -36,9 +37,8 @@ p {
     border-color: rgb(0,0,0,0.5);
 }
 
-
 .header {
-    margin-top: 2em;
+    margin-top: 0;
 }
 
 .header__whoAmI {
@@ -67,8 +67,6 @@ p {
     100% { opacity:1; }
 }
 
-
-
 .main__AboutMe {
     max-width: 800px;
     font-family: 'Anonymous Pro', Arial, Helvetica, sans-serif;
@@ -82,7 +80,6 @@ p {
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
-
 
 .footer {
     display: flex;
@@ -101,4 +98,10 @@ p {
     filter: grayscale(0%);
     border-radius: 50%;
     border-bottom: 5px solid rgb(150, 50, 210);
+}
+
+@media screen and (min-width: 480px) {
+    .footer__extLink img {
+        width: 2.7em;
+    }
 }
