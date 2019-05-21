@@ -4,11 +4,60 @@ body {
     margin-right: 0.2em;
 }
 
-.name-title {
+h1 {
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 0;
+}
+
+p {
+    margin-left: 1em;
+}
+
+.intNavigation {
+    display: flex;
+    justify-content: flex-end;
+    visibility: hidden;
+}
+/* NOTE VISIBILITY HIDDEN BECAUSE IDK WHAT TO DO IT THE NAV YET */
+
+.internalNavigation__skipLink {
+    padding: 0.5em;
+    opacity: 0.5;
+    color: black;
+}
+.internalNavigation__skipLink:hover {
+    opacity: 1;
+    padding-top: 1em;
+    transition: 0.45s;
+    border-top: 0.45em;
+    border-top-style: solid;
+    border-color: rgb(0,0,0,0.5);
+}
+
+
+.header {
     margin-top: 2em;
 }
 
-.type-cursor {
+.header__whoAmI {
+    text-align: center;
+    font-family: 'Anonymous Pro', sans-serif;
+}
+
+.header__whoAmI--myName {
+    font-family: 'Allura', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.1em;
+}
+
+.header__whoAmI--myName--title {
+    padding-top: 1em;
+}
+
+.header__whoAmI--typeCursor {
     color:black;
     animation:blink .8s ease infinite;
     opacity:0;
@@ -18,37 +67,15 @@ body {
     100% { opacity:1; }
 }
 
-.myName {
-    font-family: 'Allura', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: 3.1em;
-}
-.title {
-    padding-top: 1em;
-}
-
-h4 {
-    margin: 1em;
-}
-
-.whoAmI, .title, #title {
-    text-align: center;
-    font-family: 'Anonymous Pro', sans-serif;
-}
 
 
-p {
-    margin-left: 1em;
-}
-
-.AboutMe {
+.main__AboutMe {
     max-width: 800px;
     font-family: 'Anonymous Pro', Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }
 
-.StopWatch {
+.aside {
     text-align: center;
     font-size: 0.75em;
     font-family: 'Anonymous Pro', Arial, Helvetica, sans-serif;
@@ -57,20 +84,20 @@ p {
 }
 
 
-
-footer {
+.footer {
     display: flex;
     justify-content: center;
     margin-bottom: 1em;
 }
-footer img {
-    width: 2em;
+
+.footer__extLink img {
+    width: 2.1em;
     cursor: pointer;
     filter: grayscale(90%);
     transition: 399ms ease;
 }
 
-footer .footer-access-icon img:hover {
+.footer__extLink img:hover {
     filter: grayscale(0%);
     border-radius: 50%;
     border-bottom: 5px solid rgb(150, 50, 210);

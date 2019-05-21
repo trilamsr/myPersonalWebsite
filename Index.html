@@ -16,30 +16,51 @@
     <title>Learning Student</title>
 </head>
 <body>
-    <header class="name-title">
-        <div class="whoAmI">I am</div>
-        <div class="myName">Learning Student</div>
-        <div class="title">A <span id="title"></span><span class="type-cursor">_</span></div>
+    <nav class="intNavigation">
+        <a href="#AboutMe" class="internalNavigation__skipLink">About me</a>
+        <a href="#Portfolio" class="internalNavigation__skipLink">Portoflio</a>
+        <a href="#Testimonials" class="internalNavigation__skipLink">Testimonials</a>
+    </nav>
+    
+    <header class="header">
+        <div class="header__whoAmI">I am</div>
+        <div class="header__whoAmI header__whoAmI--myName">Learning Student</div>
+        <div class="header__whoAmI .header__whoAmI--myName--title">A <span id="title"></span><span class="header__whoAmI--typeCursor">_</span></div>
     </header>
 
-    <article class="AboutMe">
-        <h4>Ahoy there!</h4>
-        <p> &nbsp;&nbsp;&nbsp;My name is Tri. I am a software engineer, a financial analyst, and an entrepreneur. In my sparetime, you can always find me learning new things on <a href="https://www.twitch.tv/learningstudent">Twitch</a>.
-        </p>
-        <p>&nbsp;&nbsp;&nbsp;I'm also a retail trader, a silly goose, and a lover. I could also be a fighter, but I fight for what I believe in! I am passionate about all things science, especially physics, technology, computer science, mathematics and finance. So if we share a common interest, let me know. I'd love to have you as a friend.
-        </p>
-        <p>&nbsp;&nbsp;&nbsp;I'm a U.S./Vietnam dual citizen living in Seattle, WA. An alumnus of <a href="https://en.m.wikipedia.org/wiki/Fordham_University">Fordham University</a> with a B.S. in Finance.</p>
-        <p>&nbsp;&nbsp;&nbsp;Got an idea? Need my help? Or just a shoulder? Contact me at this <a href="mailto: learningstudentchannel@gmail.com">email</a>!!</p>
-    </article>
-    <br>
-    <aside class="StopWatch">
+    <main class="main">
+        <article class="main__AboutMe" id="AboutMe">
+            <h1>Ahoy there!</h1>
+            <p> &nbsp;&nbsp;&nbsp;My name is Tri. I am a software engineer, a financial analyst, and an entrepreneur. In my sparetime, you can always find me learning new things on <a href="https://www.twitch.tv/learningstudent">Twitch</a>.
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;I'm also a retail trader, a silly goose, and a lover. I could also be a fighter, but I fight for what I believe in! I am passionate about all things science, especially physics, technology, computer science, mathematics and finance. So if we share a common interest, let me know. I'd love to have you as a friend.
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;I'm a U.S./Vietnam dual citizen living in Seattle, WA. An alumnus of <a href="https://en.m.wikipedia.org/wiki/Fordham_University">Fordham University</a> with a B.S. in Finance.</p>
+            <p>&nbsp;&nbsp;&nbsp;Got an idea? Need my help? Or just a shoulder? Contact me at this <a href="mailto: learningstudentchannel@gmail.com">email</a>!!</p>
+        </article>
+          
+
+        <section id="Portfolio">
+        </section>
+        
+        <section id="Testimonials">
+            TODO LIST:
+            <li>Hamburger icon hidable -display none for navigation panels</li>
+        </section>
+        <br>
+        <br>
+        <br>
+
+    </main>
+
+    <aside class="aside">
         <div id="stopWatchTimeDisplay">00:00:00</div>
-        <div>You've spent this much time on my site</div>
+        <div>You've spent this much time on my site
         <div>Don't let it be wasted</div>
         <br>
     </aside>
-    <footer>
-        <div class="footer-access-icon">
+    <footer class="footer">
+        <div class="footer__extLink">
             <a href="https://github.com/trilamsr"><img src="Resources/IconPack/github-96.png" alt="Github"></a>
             <a href="https://twitter.com/TriLamSr"><img src="Resources/IconPack/twitter-96.png" alt="Twitter"></a>
             <a href="https://linkedin.com/in/trilamsr/"><img src="Resources/IconPack/linkedin-96.png" alt="LinkedIn"></a>
@@ -51,4 +72,5 @@
     <script src="Index.js"></script>
 </body>
 </html>
+
 

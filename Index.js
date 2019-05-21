@@ -96,3 +96,7 @@ function updateTime () {
 }
 
 setInterval(updateTime, 50);
+
+
+
+// /*TESTING STUFF ------------------*/
