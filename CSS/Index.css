@@ -73,7 +73,7 @@ p {
     margin: 0 auto;
 }
 
-.main__AboutMe--indent {
+.indent {
     text-indent: 2em;
 }
 
