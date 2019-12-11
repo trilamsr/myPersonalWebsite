@@ -24,7 +24,7 @@ const romanSubmitButton = document.getElementById('romanSubmitButton');
 const romanNumeralOutput = document.getElementById('romanNumeralOutput');
 
 function convert () {
-    romanNumeralOutput.value = convertToRoman(arabicInput.value)
+    romanNumeralOutput.value = convertToRoman(arabicInput.value);
 }
 
 romanSubmitButton.addEventListener('click', convert)
