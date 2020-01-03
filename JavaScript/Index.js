@@ -2,7 +2,7 @@
 // /*-------------TYPING EFFECT---------------*/
 var pos = 0;
 var turn = 0;
-var data = ['Full-Stack Developer','Software Engineer', 'Financial Analyst','Learning Student'];
+var data = ['Software Engineer', 'Learning Student'];
 var speed = 175;
 
 setTimeout(typeWriter, speed);
